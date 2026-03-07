@@ -1,0 +1,713 @@
+/**
+ * Complete Certification Data Configuration
+ * Reference file for all 30+ certifications
+ * Use this to create remaining detail pages or update existing ones
+ */
+
+export const allCertificationsData = {
+  // Machine Learning & AI
+  "practical-computer-vision-with-pytorch": {
+    title: "Practical Computer Vision with PyTorch",
+    issuer: "Hasso Plattner Institute",
+    date: "May 2025",
+    category: "Machine Learning & AI",
+    description:
+      "Comprehensive introduction to modern computer-vision methods with PyTorch, from CNNs to Vision Transformers (ViT) and vision-language models like CLIP and Grounding DINO.",
+    skills: [
+      "PyTorch",
+      "Computer Vision",
+      "CNN",
+      "Vision Transformers",
+      "CLIP",
+      "Image Processing",
+    ],
+    learnings: [
+      "Convolutional Neural Networks (CNNs) fundamentals",
+      "Vision Transformers (ViT) architectures",
+      "Vision-Language Models (CLIP, Grounding DINO)",
+      "PyTorch implementation",
+      "Transfer learning for vision",
+      "Image preprocessing and augmentation",
+      "Model evaluation metrics",
+    ],
+  },
+
+  "unsupervised-learning-in-python": {
+    title: "Unsupervised Learning in Python",
+    issuer: "DataCamp",
+    date: "2024",
+    category: "Machine Learning & AI",
+    description:
+      "Learn clustering, dimension reduction, and more. Use scikit-learn & SciPy. Build a music recommender system.",
+    skills: [
+      "Python",
+      "Clustering",
+      "scikit-learn",
+      "SciPy",
+      "Dimension Reduction",
+      "Recommender Systems",
+    ],
+    learnings: [
+      "K-means and hierarchical clustering",
+      "Dimensionality reduction techniques",
+      "Anomaly detection",
+      "Building recommender systems",
+      "Feature scaling and normalization",
+      "Cluster evaluation metrics",
+      "Real-world data applications",
+    ],
+  },
+
+  "cluster-analysis-in-python": {
+    title: "Cluster Analysis in Python",
+    issuer: "DataCamp",
+    date: "2024",
+    category: "Machine Learning & AI",
+    description:
+      "Master hierarchical & k-means clustering with SciPy. Analyze FIFA 18 player data.",
+    skills: ["Python", "Clustering", "Hierarchical Clustering", "K-means", "SciPy"],
+    learnings: [
+      "Hierarchical clustering methods",
+      "K-means algorithm and optimization",
+      "Linkage criteria and distance metrics",
+      "Dendrograms interpretation",
+      "Optimal cluster determination",
+      "Real sports data analysis",
+      "Visualization techniques",
+    ],
+  },
+
+  "machine-learning-with-tree-based-models-in-python": {
+    title: "Machine Learning with Tree-Based Models in Python",
+    issuer: "DataCamp",
+    date: "2024",
+    category: "Machine Learning & AI",
+    description:
+      "Learn decision trees & ensemble methods with scikit-learn. Master hyperparameter tuning.",
+    skills: [
+      "Decision Trees",
+      "Ensemble Methods",
+      "scikit-learn",
+      "Random Forest",
+      "Hyperparameter Tuning",
+    ],
+    learnings: [
+      "Decision tree construction and pruning",
+      "Random Forest algorithms",
+      "Gradient Boosting methods",
+      "Feature importance analysis",
+      "Hyperparameter optimization",
+      "Cross-validation techniques",
+      "Model comparison and selection",
+    ],
+  },
+
+  "machine-learning-for-time-series-data-in-python": {
+    title: "Machine Learning for Time Series Data in Python",
+    issuer: "DataCamp",
+    date: "2024",
+    category: "Machine Learning & AI",
+    description:
+      "Master feature engineering for time series. Classify heartbeats & predict stocks.",
+    skills: [
+      "Time Series",
+      "Feature Engineering",
+      "Spectograms",
+      "Forecasting",
+      "Signal Processing",
+    ],
+    learnings: [
+      "Time series feature engineering",
+      "Signal processing and spectrograms",
+      "Trend and seasonality analysis",
+      "ARIMA and exponential smoothing",
+      "Anomaly detection in time series",
+      "Stock price prediction",
+      "Medical signal classification",
+    ],
+  },
+
+  "supervised-learning-with-scikit-learn": {
+    title: "Supervised Learning with scikit-learn",
+    issuer: "DataCamp",
+    date: "2024",
+    category: "Machine Learning & AI",
+    description: "Build predictive models with real data. Predict churn, diabetes, and more.",
+    skills: [
+      "scikit-learn",
+      "Supervised Learning",
+      "Classification",
+      "Regression",
+      "Model Evaluation",
+    ],
+    learnings: [
+      "Classification algorithms",
+      "Regression models",
+      "Model training and evaluation",
+      "Cross-validation strategies",
+      "Feature selection methods",
+      "Model comparison",
+      "Real-world predictions",
+    ],
+  },
+
+  "getting-started-with-deepstream-for-video-analytics-on-jetson-nano": {
+    title: "Getting Started with DeepStream for Video Analytics on Jetson Nano",
+    issuer: "NVIDIA",
+    date: "2024",
+    category: "Machine Learning & AI",
+    description: "Learn video analytics and deep learning on edge devices using NVIDIA DeepStream.",
+    skills: [
+      "NVIDIA DeepStream",
+      "Video Analytics",
+      "Edge Computing",
+      "Jetson Nano",
+      "Real-time Processing",
+    ],
+    learnings: [
+      "DeepStream pipeline architecture",
+      "Video decoding and processing",
+      "Object detection in videos",
+      "Real-time inference on edge",
+      "GStreamer integration",
+      "Performance optimization",
+      "IoT and edge AI applications",
+    ],
+  },
+
+  "getting-started-with-ai-on-jetson-nano": {
+    title: "Getting Started with AI on Jetson Nano",
+    issuer: "NVIDIA",
+    date: "October 2021",
+    category: "Machine Learning & AI",
+    description:
+      "Comprehensive introduction to AI and deep learning on NVIDIA Jetson Nano edge devices.",
+    skills: ["AI", "Deep Learning", "Jetson Nano", "Edge Computing", "NVIDIA"],
+    learnings: [
+      "Jetson Nano setup and configuration",
+      "AI fundamentals on edge devices",
+      "Image classification on edge",
+      "Model quantization for inference",
+      "Power-efficient AI processing",
+      "Robotics applications",
+      "IoT integration",
+    ],
+  },
+
+  // Data Science & Analytics
+  "associate-data-scientist": {
+    title: "Associate Data Scientist",
+    issuer: "DataCamp",
+    date: "March 2022",
+    category: "Data Science & Analytics",
+    description:
+      "Entry-level role preparation with data manipulation, EDA, and machine learning (27-40+ hours).",
+    skills: ["Data Science", "EDA", "Python", "SQL", "Data Visualization", "pandas"],
+    learnings: [
+      "Data manipulation with pandas",
+      "Exploratory data analysis (EDA)",
+      "Data visualization fundamentals",
+      "Statistical concepts",
+      "MySQL and databases",
+      "Python programming",
+      "Machine learning basics",
+    ],
+  },
+
+  "professional-data-analyst-certificate": {
+    title: "Professional Data Analyst Certificate",
+    issuer: "DataCamp",
+    date: "2024",
+    category: "Data Science & Analytics",
+    description:
+      "Industry-recognized certification requiring two exams and practical project. Advanced SQL, Python/R, and data storytelling.",
+    skills: ["Data Analysis", "SQL", "Python", "Data Storytelling", "BI", "Statistical Analysis"],
+    learnings: [
+      "Advanced SQL for complex queries",
+      "Statistical analysis and hypothesis testing",
+      "Data visualization best practices",
+      "Business intelligence solutions",
+      "Data-driven storytelling",
+      "Real-world case studies",
+      "Professional communication",
+    ],
+  },
+
+  "introduction-to-power-bi": {
+    title: "Introduction to Power BI",
+    issuer: "DataCamp",
+    date: "2024",
+    category: "Data Science & Analytics",
+    description:
+      "3-hour hands-on Power BI intro. Learn data load, model, and visuals. Master Power Query.",
+    skills: ["Power BI", "Power Query", "Data Visualization", "DAX", "Reporting"],
+    learnings: [
+      "Power BI desktop interface",
+      "Data import and transformation",
+      "Data modeling fundamentals",
+      "Creating interactive dashboards",
+      "DAX formula basics",
+      "Report sharing and publishing",
+      "Real-time data sources",
+    ],
+  },
+
+  "introduction-to-data-visualization-with-matplotlib": {
+    title: "Introduction to Data Visualization with Matplotlib",
+    issuer: "DataCamp",
+    date: "2024",
+    category: "Data Science & Analytics",
+    description: "Learn Matplotlib for powerful data visualization. Create diverse plots.",
+    skills: ["Matplotlib", "Data Visualization", "Python", "Plotting", "Statistical Graphics"],
+    learnings: [
+      "Matplotlib library fundamentals",
+      "Line plots and scatter plots",
+      "Bar charts and histograms",
+      "Customizing plots",
+      "Subplots and layouts",
+      "Saving and exporting figures",
+      "Data storytelling with plots",
+    ],
+  },
+
+  "introduction-to-data-visualization-with-seaborn": {
+    title: "Introduction to Data Visualization with Seaborn",
+    issuer: "DataCamp",
+    date: "2024",
+    category: "Data Science & Analytics",
+    description: "Master Seaborn for data visualization. Create diverse plots.",
+    skills: ["Seaborn", "Data Visualization", "Python", "Statistical Graphics"],
+    learnings: [
+      "Seaborn vs Matplotlib",
+      "Distribution plots",
+      "Categorical plots",
+      "Relational plots",
+      "Figure-level vs axes-level",
+      "Color palettes",
+      "Advanced customization",
+    ],
+  },
+
+  "intermediate-data-visualization-with-seaborn": {
+    title: "Intermediate Data Visualization with Seaborn",
+    issuer: "DataCamp",
+    date: "2024",
+    category: "Data Science & Analytics",
+    description: "Advanced Seaborn techniques for analyzing real-world data.",
+    skills: [
+      "Seaborn",
+      "Data Visualization",
+      "Subplots",
+      "Confidence Intervals",
+      "Statistical Plots",
+    ],
+    learnings: [
+      "Multi-variable visualizations",
+      "Hue and style mapping",
+      "Faceted plots with FacetGrid",
+      "Confidence intervals visualization",
+      "Correlation heatmaps",
+      "Advanced customization",
+      "Publishing-quality graphics",
+    ],
+  },
+
+  // Data Engineering & Tools
+  "cleaning-data-in-python": {
+    title: "Cleaning Data in Python",
+    issuer: "DataCamp",
+    date: "2024",
+    category: "Data Engineering & Tools",
+    description: "Master data cleaning. Fix data types, ranges, duplicates, & missing values.",
+    skills: ["Data Cleaning", "Python", "pandas", "Data Quality", "Regular Expressions"],
+    learnings: [
+      "Data type validation and conversion",
+      "Handling missing values",
+      "Outlier detection and treatment",
+      "Duplicate record identification",
+      "Text data cleaning",
+      "Record linkage",
+      "Data validation frameworks",
+    ],
+  },
+
+  "analyzing-police-activity-with-pandas": {
+    title: "Analyzing Police Activity with pandas",
+    issuer: "DataCamp",
+    date: "2024",
+    category: "Data Engineering & Tools",
+    description: "Apply pandas skills to analyze police data. Clean, visualize, and reshape.",
+    skills: ["pandas", "Data Analysis", "Data Manipulation", "Real-world Data"],
+    learnings: [
+      "Data import and exploration",
+      "Data cleaning and standardization",
+      "Time series analysis",
+      "Grouping and aggregation",
+      "Merging datasets",
+      "Real-world insights extraction",
+      "Bias and fairness analysis",
+    ],
+  },
+
+  "introduction-to-importing-data-in-python": {
+    title: "Introduction to Importing Data in Python",
+    issuer: "DataCamp",
+    date: "2024",
+    category: "Data Engineering & Tools",
+    description: "Master data import from files (CSV, Excel) & databases (SQLite, PostgreSQL).",
+    skills: ["Python", "Data Import", "SQL", "File Handling", "Database Connections"],
+    learnings: [
+      "CSV and Excel file reading",
+      "JSON and other formats",
+      "SQLite database basics",
+      "SQL SELECT statements",
+      "Database connections",
+      "pandas read functions",
+      "Data validation on import",
+    ],
+  },
+
+  "intermediate-importing-data-in-python": {
+    title: "Intermediate Importing Data in Python",
+    issuer: "DataCamp",
+    date: "2024",
+    category: "Data Engineering & Tools",
+    description: "Pull data from the web & APIs (like Twitter API).",
+    skills: ["Python", "APIs", "Web Scraping", "Data Integration", "HTTP Requests"],
+    learnings: [
+      "HTTP requests library",
+      "REST API fundamentals",
+      "JSON parsing",
+      "Twitter API integration",
+      "Rate limiting and authentication",
+      "Web scraping basics",
+      "Error handling",
+    ],
+  },
+
+  "joining-data-with-pandas": {
+    title: "Joining Data with pandas",
+    issuer: "DataCamp",
+    date: "2024",
+    category: "Data Engineering & Tools",
+    description: "Master pandas data joining! Combine and reshape DataFrames.",
+    skills: ["pandas", "Data Joining", "Data Manipulation", "SQL-style Operations"],
+    learnings: [
+      "Inner, outer, left, right joins",
+      "Merge operations",
+      "Concatenating dataframes",
+      "Multi-level indexes",
+      "Reshaping data (pivot/melt)",
+      "Combining datasets",
+      "Best practices for data integration",
+    ],
+  },
+
+  "working-with-dates-and-times-in-python": {
+    title: "Working with Dates and Times in Python",
+    issuer: "DataCamp",
+    date: "2024",
+    category: "Data Engineering & Tools",
+    description: "Master time data in Python. Handle dates, times, zones.",
+    skills: ["Python", "pandas", "DateTime", "Time Series", "dateutil"],
+    learnings: [
+      "DateTime objects creation",
+      "Parsing date strings",
+      "Time zone handling",
+      "Date arithmetic",
+      "Resampling time series",
+      "Handling DST changes",
+      "Time-based indexing",
+    ],
+  },
+
+  "sql-advanced": {
+    title: "SQL (Advanced)",
+    issuer: "HackerRank",
+    date: "2024",
+    category: "Data Engineering & Tools",
+    description:
+      "Advanced SQL covering query optimization, data modeling, indexing, window functions.",
+    skills: ["SQL", "Query Optimization", "Window Functions", "Data Modeling", "Indexing"],
+    learnings: [
+      "Window functions (ROW_NUMBER, RANK, etc)",
+      "CTEs (Common Table Expressions)",
+      "Subqueries and nested queries",
+      "Query optimization techniques",
+      "JOIN performance",
+      "Index strategies",
+      "EXPLAIN and query plans",
+    ],
+  },
+
+  // Statistics & Advanced Techniques
+  "statistical-thinking-in-python-part-2": {
+    title: "Statistical Thinking in Python (Part 2)",
+    issuer: "DataCamp",
+    date: "2024",
+    category: "Statistics & Advanced Techniques",
+    description: "Advance stats skills. Learn parameter estimation & hypothesis testing.",
+    skills: [
+      "Statistics",
+      "Python",
+      "Hypothesis Testing",
+      "Parameter Estimation",
+      "Confidence Intervals",
+    ],
+    learnings: [
+      "Parameter estimation methods",
+      "Maximum likelihood estimation",
+      "Hypothesis testing framework",
+      "P-values and significance",
+      "Bootstrapping methods",
+      "Resampling techniques",
+      "Bayesian statistics intro",
+    ],
+  },
+
+  "extreme-gradient-boosting-with-xgboost": {
+    title: "Extreme Gradient Boosting with XGBoost",
+    issuer: "DataCamp",
+    date: "2024",
+    category: "Statistics & Advanced Techniques",
+    description: "Master XGBoost for gradient boosting. Build & tune models.",
+    skills: ["XGBoost", "Gradient Boosting", "scikit-learn", "Model Tuning", "Ensemble Methods"],
+    learnings: [
+      "Gradient boosting fundamentals",
+      "XGBoost algorithm",
+      "Hyperparameter tuning",
+      "Feature importance",
+      "Early stopping",
+      "Classification and regression",
+      "Cross-validation with XGBoost",
+    ],
+  },
+
+  "linear-classifiers-in-python": {
+    title: "Linear Classifiers in Python",
+    issuer: "DataCamp",
+    date: "2024",
+    category: "Statistics & Advanced Techniques",
+    description: "Learn linear classifiers (logistic regression, SVM).",
+    skills: ["Logistic Regression", "SVM", "scikit-learn", "Classification", "Linear Models"],
+    learnings: [
+      "Logistic regression theory",
+      "Support Vector Machines (SVM)",
+      "Linear classification boundaries",
+      "Kernel methods",
+      "Multi-class classification",
+      "Probability calibration",
+      "classifier comparison",
+    ],
+  },
+
+  "dimensionality-reduction-in-python": {
+    title: "Dimensionality Reduction in Python",
+    issuer: "DataCamp",
+    date: "2024",
+    category: "Statistics & Advanced Techniques",
+    description: "Handle high-dimensional data. Learn feature selection & extraction.",
+    skills: ["Dimensionality Reduction", "PCA", "Feature Selection", "Visualization", "t-SNE"],
+    learnings: [
+      "Principal Component Analysis (PCA)",
+      "Feature selection methods",
+      "Correlation analysis",
+      "t-SNE visualization",
+      "UMAP methods",
+      "Curse of dimensionality",
+      "Feature engineering",
+    ],
+  },
+
+  // Project Management & Agile
+  "pmp-exam-prep-course": {
+    title: "PMP EXAM PREP COURSE",
+    issuer: "Ben Hamouda Consulting",
+    date: "March 2025",
+    category: "Project Management",
+    description:
+      "35-Hour PMP Training. Deep dive into project planning, execution, and risk management.",
+    skills: ["PMP", "Project Management", "PMBOK", "Risk Management", "Team Leadership"],
+    learnings: [
+      "PMBOK Guide knowledge areas",
+      "Project initiation and planning",
+      "Scope and schedule management",
+      "Resource and cost management",
+      "Quality and communication",
+      "Risk management processes",
+      "Stakeholder management",
+    ],
+  },
+
+  "scrum-fundamentals-certified": {
+    title: "Scrum Fundamentals Certified (SFC)",
+    issuer: "SCRUMstudy",
+    date: "2024",
+    category: "Project Management",
+    description: "Global accreditation for Scrum certifications with SBOK® Guide.",
+    skills: ["Scrum", "Agile", "Team Collaboration", "Sprint Management", "Product Development"],
+    learnings: [
+      "Scrum framework principles",
+      "Scrum roles and responsibilities",
+      "Sprint ceremonies",
+      "Backlog management",
+      "User story creation",
+      "Sprint planning and estimation",
+      "Agile metrics",
+    ],
+  },
+
+  "scrum-for-operations-and-devops-fundamentals-certified": {
+    title: "Scrum for Operations and DevOps Fundamentals Certified (SODFC)",
+    issuer: "SCRUMstudy",
+    date: "2024",
+    category: "Project Management",
+    description: "Scrum for Ops and DevOps practices.",
+    skills: ["Scrum", "DevOps", "Operations", "CI/CD", "Continuous Delivery"],
+    learnings: [
+      "DevOps culture principles",
+      "CI/CD pipeline management",
+      "Scrum for operations",
+      "Infrastructure as Code",
+      "Monitoring and observability",
+      "Release management",
+      "Team automation",
+    ],
+  },
+
+  "pmi-citizen-developer-business-architect": {
+    title: "PMI Citizen Developer™ Business Architect (CDBA)",
+    issuer: "Project Management Institute",
+    date: "2024",
+    category: "Project Management",
+    description: "Manage citizen development teams and governance processes.",
+    skills: ["PMI", "Business Architecture", "Citizen Development", "Governance", "Leadership"],
+    learnings: [
+      "Citizen development principles",
+      "Low-code/no-code platforms",
+      "Business process modeling",
+      "Governance frameworks",
+      "IT-business collaboration",
+      "Risk and compliance",
+      "Team enablement",
+    ],
+  },
+
+  "basics-of-scrum-course-certificate": {
+    title: "Basics of Scrum Course Certificate",
+    issuer: "Scrum Methodology",
+    date: "2024",
+    category: "Project Management",
+    description: "Scrum management framework fundamentals.",
+    skills: ["Scrum", "Agile", "Team Management", "Iterative Development"],
+    learnings: [
+      "Empirical Process Control",
+      "Self-organization principles",
+      "Time-boxing",
+      "Value-based prioritization",
+      "Daily standups",
+      "Sprint reviews",
+      "Retrospectives",
+    ],
+  },
+
+  "six-sigma-yellow-belt": {
+    title: "Six Sigma Yellow Belt (SSYB)",
+    issuer: "6sigmastudy",
+    date: "2024",
+    category: "Project Management",
+    description: "Basic understanding of Six Sigma for quality improvement.",
+    skills: ["Six Sigma", "Quality Management", "Process Improvement", "DMAIC", "Statistics"],
+    learnings: [
+      "Six Sigma methodology",
+      "DMAIC process",
+      "Variation and statistics",
+      "Root cause analysis",
+      "Process improvement",
+      "Control charts",
+      "Quality metrics",
+    ],
+  },
+
+  // Business & Leadership
+  "marketing-strategy-fundamentals": {
+    title: "Marketing Strategy Fundamentals (SCMS-F)",
+    issuer: "SMstudy",
+    date: "March 2025",
+    category: "Business & Leadership",
+    description: "Foundational marketing certification covering frameworks and strategies.",
+    skills: ["Marketing Strategy", "Market Analysis", "Business Planning", "Sales Alignment"],
+    learnings: [
+      "Strategic marketing frameworks",
+      "Business model development",
+      "Market research and analysis",
+      "Target market segmentation",
+      "Positioning strategies",
+      "4P/7P marketing mix",
+      "Sales and marketing alignment",
+    ],
+  },
+
+  "negotiation-associate-certified": {
+    title: "Negotiation Associate Certified",
+    issuer: "NGstudy",
+    date: "2024",
+    category: "Business & Leadership",
+    description: "Skills to conduct successful negotiations.",
+    skills: ["Negotiation", "Communication", "Stakeholder Management", "Conflict Resolution"],
+    learnings: [
+      "Negotiation principles",
+      "Preparation and planning",
+      "Communication strategies",
+      "Win-win negotiation",
+      "Conflict resolution",
+      "Emotional intelligence",
+      "Closing and agreement",
+    ],
+  },
+
+  "advanced-program-in-entrepreneurship": {
+    title: "Advanced Program in Entrepreneurship",
+    issuer: "Institute of Management, Technology and Finance",
+    date: "2024",
+    category: "Business & Leadership",
+    description: "Advanced entrepreneurship program.",
+    skills: [
+      "Entrepreneurship",
+      "Business Development",
+      "Innovation",
+      "Leadership",
+      "Startup Strategy",
+    ],
+    learnings: [
+      "Business idea validation",
+      "Business model innovation",
+      "Startup funding strategies",
+      "Market entry planning",
+      "Customer development",
+      "Lean methodology",
+      "Scaling and growth",
+    ],
+  },
+
+  // Problem Solving & Coding
+  "problem-solving-intermediate": {
+    title: "Problem Solving Intermediate",
+    issuer: "HackerRank",
+    date: "August 2022",
+    category: "Problem Solving",
+    description: "Data Structures and Algorithms.",
+    skills: ["Problem Solving", "Data Structures", "Algorithms", "Coding", "Optimization"],
+    learnings: [
+      "Arrays and linked lists",
+      "Stacks and queues",
+      "Hash maps and sets",
+      "Sorting algorithms",
+      "Searching techniques",
+      "Algorithm optimization",
+      "Time and space complexity",
+    ],
+  },
+};
+
+export default allCertificationsData;
