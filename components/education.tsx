@@ -35,6 +35,24 @@ const education = {
   },
 };
 
+const bhtEducation = {
+  school: "Berliner Hochschule für Technik",
+  location: "Berlin, Deutschland",
+  degree: "M.Sc. in Medieninformatik",
+  specialization: "Data, AI und Development",
+  startDate: "Wintersemester 2026",
+  endDate: "Heute",
+  status: "Aktuell / In progress",
+  logo: "/assets/bht-logo.png",
+  selectedModules: [
+    "Programmiersprachen und -konzepte",
+    "Data Science Applications",
+    "Computer Vision",
+    "DevOps – Software Development and Operations",
+    "Enterprise Web Development",
+  ],
+};
+
 export function Education() {
   return (
     <section id="education" className="py-20 md:py-32 bg-white">
@@ -46,8 +64,9 @@ export function Education() {
           Academic Foundation & Professional Development
         </p>
 
+        <div className="flex flex-col">
         {/* Main Education Card */}
-        <div className="bg-white border-2 border-blue-300 rounded-3xl overflow-hidden hover:shadow-2xl transition-all duration-300 mb-12">
+        <div className="order-2 bg-white border-2 border-blue-300 rounded-3xl overflow-hidden hover:shadow-2xl transition-all duration-300 mb-12">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 p-8 md:p-12">
             {/* Left Section - Logo & Basic Info */}
             <div className="lg:col-span-1 flex flex-col items-center justify-center bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8">
@@ -106,6 +125,81 @@ export function Education() {
               </p>
             </div>
           </div>
+        </div>
+
+        {/* Current Education Card */}
+        <div className="order-1 bg-white border-2 border-blue-300 rounded-3xl overflow-hidden hover:shadow-2xl transition-all duration-300 mb-12">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 p-8 md:p-12">
+            {/* Left Section - Logo & Basic Info */}
+            <div className="lg:col-span-1 flex flex-col items-center justify-center bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8">
+              <div className="relative h-48 w-full max-w-xs mb-6 flex items-center justify-center">
+                <Image
+                  src={bhtEducation.logo}
+                  alt={bhtEducation.school}
+                  fill
+                  className="object-contain p-2 scale-125"
+                />
+              </div>
+              <h3 className="text-2xl font-bold text-center text-blue-900 mb-4">
+                {bhtEducation.school}
+              </h3>
+              <div className="flex flex-col gap-3 text-sm text-gray-700 w-full">
+                <div className="flex items-center gap-2 justify-center">
+                  <MapPin className="w-4 h-4 text-blue-600" />
+                  <span>{bhtEducation.location}</span>
+                </div>
+                <div className="flex items-center gap-2 justify-center">
+                  <Calendar className="w-4 h-4 text-blue-600" />
+                  <span>
+                    {bhtEducation.startDate} – {bhtEducation.endDate}
+                  </span>
+                </div>
+                <div className="flex items-center gap-2 justify-center bg-blue-200 rounded-full py-2 px-3">
+                  <Award className="w-4 h-4 text-blue-700" />
+                  <span className="font-semibold text-blue-700">{bhtEducation.status}</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Right Section - Degree Details */}
+            <div className="lg:col-span-2 flex flex-col justify-center">
+              <h4 className="text-2xl md:text-3xl font-bold text-gray-900 mb-3">
+                {bhtEducation.degree}
+              </h4>
+              <p className="text-lg text-blue-600 font-semibold mb-6">
+                {bhtEducation.specialization}
+              </p>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+                <div className="bg-blue-50 p-4 rounded-xl border border-blue-200">
+                  <p className="text-xs font-semibold text-gray-600 uppercase">Period</p>
+                  <p className="text-lg font-bold text-blue-700">Wintersemester 2026 – Heute</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-xl border border-green-200">
+                  <p className="text-xs font-semibold text-gray-600 uppercase">Status</p>
+                  <p className="text-lg font-bold text-green-700">{bhtEducation.status}</p>
+                </div>
+              </div>
+
+              <div>
+                <p className="text-sm font-semibold text-gray-600 uppercase mb-3">
+                  Selected modules
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {bhtEducation.selectedModules.map((module) => (
+                    <span
+                      key={module}
+                      className="rounded-full border border-blue-200 bg-blue-50 px-3 py-2 text-sm text-blue-800"
+                    >
+                      {module}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         </div>
 
         {/* Main Grid - Three Columns */}
